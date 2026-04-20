@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Sampleapp</title>
+    <style>
+        :root {
+            --bg-color: #f0f2f5;
+            --card-bg: #ffffff;
+            --primary-text: #2c3e50;
+            --secondary-text: #546e7a;
+            --border-accent: #34495e;
+            --box-bg: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--primary-text);
+            margin: 0;
+            padding: 50px 15px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .policy-paper {
+            background-color: var(--card-bg);
+            max-width: 850px;
+            width: 100%;
+            padding: 60px;
+            border-radius: 2px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            border: 1px solid #d1d5da;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 3px solid var(--border-accent);
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 28px;
+            letter-spacing: 1px;
+            color: #000;
+        }
+
+        .effective-date {
+            margin-top: 10px;
+            font-size: 14px;
+            color: var(--secondary-text);
+            text-transform: uppercase;
+        }
+
+        section {
+            margin-bottom: 35px;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: #000;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: var(--border-accent);
+        }
+
+        p, li {
+            font-size: 15px;
+            line-height: 1.7;
+            color: #333;
+        }
+
+        .highlight-container {
+            background-color: var(--box-bg);
+            padding: 25px;
+            border: 1px solid #e1e4e8;
+            border-left: 5px solid var(--border-accent);
+            margin: 20px 0;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+        }
+
+        @media (max-width: 600px) {
+            .policy-paper {
+                padding: 30px 20px;
+            }
+            h1 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="policy-paper">
+        <header>
+            <h1>PRIVACY POLICY</h1>
+            <div class="effective-date">Effective Date: April 20, 2026</div>
+        </header>
+
+        <section>
+            <p><strong>Sampleapp</strong> ("the App") is built with a "Privacy by Design" philosophy. We believe your security analysis should remain private, which is why we utilize on-device processing and minimize data collection.</p>
+        </section>
+
+        <section>
+            <h2>1. High-Risk Permissions (QUERY_ALL_PACKAGES)</h2>
+            <p>To provide comprehensive protection, Sampleapp requires the <code>QUERY_ALL_PACKAGES</code> permission.</p>
+            
+            <div class="highlight-container">
+                <h3>Purpose:</h3>
+                <p>This allows the App to inventory all applications installed on your device.</p>
+                
+                <h3>Necessity:</h3>
+                <p>This access is essential for the App’s core functionality—identifying malware, detecting spyware, and analyzing the risk level of permissions requested by other apps on your device.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>2. On-Device Processing & Data Privacy</h2>
+            <h3>Local Security Analysis</h3>
+            <p>All scanning of your installed apps and their associated permissions is performed <strong>entirely on your device</strong>. We do not collect, store, or transmit your app list or security analysis results to any external servers.</p>
+            
+            <h3>Zero Network Exposure</h3>
+            <p>Your device's security profile remains your own. No scanning data is ever uploaded to a cloud or shared with third parties.</p>
+        </section>
+
+        <section>
+            <h2>3. Limited Data Collection & Storage</h2>
+            <p>We only collect the absolute minimum data required to operate and improve the App:</p>
+            <ul>
+                <li><strong>User Consent (Acknowledgement):</strong> To comply with legal and platform requirements, we store a record of your digital acknowledgement of this Privacy Policy. This record (and no other personal data) is stored securely via <strong>Zoho WorkDrive</strong>.</li>
+                <li><strong>Crash Reporting:</strong> To ensure app stability, Sampleapp utilizes standard Google Play Android Vitals. If the app crashes, an anonymous technical report (stack trace and device model) is sent to Google. This helps us fix bugs and does not contain personal information.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. User Control & Transparency</h2>
+            <ul>
+                <li><strong>Diagnostics:</strong> You can manage or disable system-level diagnostic sharing at any time through your device settings under <em>Settings > Google > Usage & diagnostics</em>.</li>
+                <li><strong>Third-Party Policy:</strong> Aside from the essential administrative and technical logs mentioned above, your data is never sold, shared, or used for tracking/advertising.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5. Contact Information</h2>
+            <p>If you have any questions regarding this Privacy Policy, please contact us at:</p>
+            <p><strong>Email:</strong> <a href="mailto:sampleapp@gmail.com">sampleapp@gmail.com</a></p>
+        </section>
+
+        <footer>
+            &copy; 2026 Sampleapp. All Rights Reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
